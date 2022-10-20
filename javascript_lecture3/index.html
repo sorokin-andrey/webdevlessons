@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="body">
+    <header>Javascript Lecture 3</header>
+    <div class="container">
+      <!-- part 1 -->
+      <div class="event_button" onclick="this.innerText='text'">
+        Click me to change text
+      </div>
+      <div class="event_buttons">
+        <div class="event_button" onclick="changeColor(this)">
+          Click me to change color
+        </div>
+        <div class="event_button" onclick="changeColor(this)">
+          Click me to change color
+        </div>
+        <div class="event_button" onclick="changeColor(this)">
+          Click me to change color
+        </div>
+      </div>
+
+      <!-- part 2 -->
+      <div class="counter">
+        <button id="counter_minus" onclick="minus()">-</button>
+        <div id="counter_text">
+          <span id="counter_result">0</span>
+        </div>
+        <button id="counter_plus" onclick="plus()">+</button>
+      </div>
+
+      <!-- part 3 -->
+      <div class="table">
+        <div class="row">
+          <div class="column">row 1 column 1</div>
+          <div class="column">row 1 column 2</div>
+          <div class="column">row 1 column 3</div>
+          <div class="column">row 1 column 4</div>
+          <div class="column">row 1 column 5</div>
+        </div>
+        <div class="row">
+          <div class="column">row 2 column 1</div>
+          <div class="column">row 2 column 2</div>
+          <div class="column">row 2 column 3</div>
+          <div class="column">row 2 column 4</div>
+          <div class="column">row 2 column 5</div>
+        </div>
+        <div class="row">
+          <div class="column">row 3 column 1</div>
+          <div class="column">row 3 column 2</div>
+          <div class="column">row 3 column 3</div>
+          <div class="column">row 3 column 4</div>
+          <div class="column">row 3 column 5</div>
+        </div>
+        <div class="row">
+          <div class="column">row 4 column 1</div>
+          <div class="column">row 4 column 2</div>
+          <div class="column">row 4 column 3</div>
+          <div class="column">row 4 column 4</div>
+          <div class="column">row 4 column 5</div>
+        </div>
+        <div class="row">
+          <div class="column">row 5 column 1</div>
+          <div class="column">row 5 column 2</div>
+          <div class="column">row 5 column 3</div>
+          <div class="column">row 5 column 4</div>
+          <div class="column">row 5 column 5</div>
+        </div>
+        <button id="table_button">Click me to change column color</button>
+      </div>
+
+      <!-- part 4 -->
+      <ul class="container_onhover">
+        <li>block 1</li>
+        <li>block 2</li>
+        <li>block 3</li>
+      </ul>
+
+      <!-- part 5 -->
+      <div class="text_input">
+        <label for="textInputExample">Enter text</label>
+        <input type="text" name="textInputExample" id="textInputExample" />
+      </div>
+
+      <!-- part 6 -->
+      <div class="clocks">
+        <div class="clocksValue">
+          <div id="clocksHours">0</div>
+          <div id="clocksMinutes">0</div>
+          <div id="clocksSeconds">0</div>
+        </div>
+        <div class="clocksButtons">
+          <button id="deleteClock">delete clock</button>
+          <button id="clocksStart">start</button>
+        </div>
+      </div>
+    </div>
+    <footer>The end</footer>
+    <!-- <script src="scripts/javascript_lecture1.js"></script> -->
+    <!-- <script src="scripts/javascript_lecture2.js"></script> -->
+    <!-- <script src="scripts/javascript_lecture3.js"></script> -->
+    <!-- <script src="scripts/script.js"></script> -->
+    <!-- <script src="scripts/Vitya.js"></script> -->
+    <!-- <script src="scripts/Anya.js"></script> -->
+  </body>
+</html>

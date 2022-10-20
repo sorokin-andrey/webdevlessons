@@ -1,0 +1,11 @@
+body {
+  background-color: lightblue;
+}
+.divColor {
+  background-color: yellow;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+.customCol {
+  height: 10vh;
+}

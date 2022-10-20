@@ -1,0 +1,10 @@
+.result {
+  color: white;
+  text-align: right;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  background-color: gray;
+  display: grid;
+  border: black solid 1px;
+  border-radius: 10px 10px 0px 0px;
+}

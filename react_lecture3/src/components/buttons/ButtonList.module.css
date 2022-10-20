@@ -1,0 +1,22 @@
+.buttons {
+  color: white;
+  text-align: center;
+  border: black solid 1px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: darkgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.buttons__actions {
+  background-color: orangered;
+  border: black solid 1px;
+}
+.button__zero {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.button__equal {
+  border: black solid 1px;
+  border-radius: 0px 0px 10px 0px;
+}

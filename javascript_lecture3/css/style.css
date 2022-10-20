@@ -1,0 +1,148 @@
+body {
+  background-color: #f0f8ff;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 8fr 1fr;
+}
+
+/* header */
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* main container */
+
+.container {
+  grid-column-start: 2;
+  grid-column-end: 2;
+
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr 5fr 1fr 1fr 1fr;
+}
+
+/* part 1 */
+.event_buttons {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.event_button {
+  height: 40px;
+  text-align: center;
+  background-color: aqua;
+}
+
+/* counter */
+
+.counter {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#counter_minus {
+  height: 40px;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+}
+
+#counter_minus:hover {
+  background-color: #f0f0f0;
+}
+
+#counter_text {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: lightblue;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+}
+
+#counter_text > span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 30px;
+}
+
+#counter_plus {
+  height: 40px;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+}
+
+#counter_plus:hover {
+  background-color: #f0f0f0;
+}
+
+/* table */
+
+.table {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.row {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.column {
+  background-color: #cfcfcf;
+}
+
+/* onhover */
+.container_onhover {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* text input */
+.text_input {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 8fr;
+}
+
+/* clocks */
+.clocks {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: 3vh 2vh;
+}
+
+.clocksValue {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 20fr;
+}
+
+.clocksButtons {
+  margin-top: 10px;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* footer */
+
+footer {
+  margin-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  font-size: 20px;
+}

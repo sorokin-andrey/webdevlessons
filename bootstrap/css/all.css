@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+}
+.row {
+  /* clear: left; */
+}
+.box {
+  height: 10vh;
+  width: 100%;
+}
+.divColor {
+  background-color: yellow;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+.gridExample {
+  float: left;
+}
