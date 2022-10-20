@@ -1,0 +1,17 @@
+.slider__img {
+  max-width: min(calc(100% - 50px), 60vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider__img > img {
+  max-width: min(calc(100% - 50px), 60vw);
+  max-height: 100%;
+  width: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider__img {
+    width: calc(100% - 10px);
+  }
+}

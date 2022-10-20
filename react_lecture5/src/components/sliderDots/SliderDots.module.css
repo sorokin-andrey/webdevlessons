@@ -1,0 +1,22 @@
+.slider__dots {
+  border: 1px #80808080 solid;
+  border-radius: 50%;
+  background-color: #80808080;
+  padding: 12px 36px;
+  height: fit-content;
+  margin-right: 24px;
+  font-size: 18px;
+}
+.slider__dots:last-child {
+  margin-right: 0;
+}
+
+.slider__dots__active {
+  background-color: #e0e0e0e0;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider__dots {
+    padding: 12px;
+  }
+}

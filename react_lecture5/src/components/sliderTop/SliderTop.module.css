@@ -1,0 +1,12 @@
+.slider__top {
+  display: flex;
+  font-display: row;
+  height: 90vh;
+  justify-content: center;
+}
+.slider__top__images {
+  display: flex;
+  font-display: row;
+  width: 60vw;
+  justify-content: center;
+}

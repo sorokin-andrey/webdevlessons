@@ -1,0 +1,6 @@
+body {
+  background-color: #f0f8ff;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
