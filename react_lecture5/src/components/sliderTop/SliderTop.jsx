@@ -8,9 +8,7 @@ function SliderTop() {
   return (
     <div className={styles.slider__top}>
       <SliderNavButton method="previous" />
-      <div className={styles.slider__top__images}>
-        <SliderImageBox />
-      </div>
+      <SliderImageBox />
       <SliderNavButton method="next" />
     </div>
   );
